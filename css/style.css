@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,600;0,700;1,400&display=swap');
+*{margin:0;
+padding:0;}
+body{font-family: 'Open Sans', sans-serif;
+font-size: 20px;
+    color: #83A7A5;
+
+}
+header{
+    
+    background-image: url("../images/my.jpg");
+    min-height: 600px;
+   background-size: cover;
+    background-color: #326C6D;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+}
+nav .container{
+        border-bottom: 1px solid #ffffff73;
+    padding: 16px 0px;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(244, 238, 238, 0.63);
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+header .text-num {
+    font-size: 14px;
+    border-left: 1px solid #fff;
+    padding-left: 15px;
+    margin-left: 15px;
+    font-weight: 700;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+header .row{
+    
+    min-height: 600px;
+    align-items: center;
+}
+.banner{
+    
+}
+.active {
+    background: #6F7070E0;
+}
+.banner h1{
+    
+    font-size: 40px;
+    color: white;
+    font-weight: 500;
+}
+.banner p{
+    
+    color: white;
+    font-size: 16px;
+}
+.btn-custom {
+    background: #26a445;
+    color: white;
+    border-radius: 0;
+    padding: 10px 25px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+}
+.btn-custom:hover{
+    color: #fff;
+    background: #6F7070E0;
+}
+
+.skil{
+   padding: 50px 0px; 
+}
+.skil h1 {
+    color: #3263bbfa;
+    font-size: 50px;
+    font-weight: 800;
+}
+.skil p {
+    padding: 0px;
+    font-size: 20px;
+    color: #4469ac;
+    font-weight: 600;
+}
+.shadow{
+    
+   box-shadow: -4px 4px 68px #9bcff8;
+    color: #483a83;
+    font-size: 25px;
+    
+    font-weight: 600;
+}
+.foot{
+     background-color: #16494ac9;
+   height: 310px;
+    padding: 66px 0px;
+    
+    
+    
+}
+.foot p{
+   
+    font-size: 25px;
+    color: #28281e;
+    font-weight: 600;
+
+    
+}
+.foot a {
+    text-decoration: none;
+    color: #0a27ef;
+    font-weight: bolder;
+}
+.foot a:hover {
+    text-decoration: underline;
+    color: #fff;
+    font-weight: bolder;
+}
