@@ -91,15 +91,20 @@ header .row{
    box-shadow: -4px 4px 68px #9bcff8;
     color: #483a83;
     font-size: 25px;
-    
+      
     font-weight: 600;
 }
+
+.shadow:hover{
+   
+}
+
 .foot{
-     background-color: #16494ac9;
+     background-color: #000;
    height: 310px;
     padding: 66px 0px;
     
-    
+   
     
 }
 .foot p{
@@ -120,3 +125,28 @@ header .row{
     color: #fff;
     font-weight: bolder;
 }
+
+.shadow2{
+    
+   box-shadow: -4px 4px 68px #9bcff8;
+    color: #483a83;
+    font-size: 25px;
+      height: 320px;
+    font-weight: 600;
+}
+.abme {
+    border-bottom: 1px solid black;
+    margin: 20px 0px;
+}
+
+    .abme p {
+    color: #19e8e8;
+    font-size: 30px;
+    font-weight: 600;
+
+}
+
+
+
+
+
